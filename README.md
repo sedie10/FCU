@@ -14,3 +14,4 @@ TX
 RX
 - FCU_RX_STATE2 -> just 1PATH EPP (no power control)
 - FCU_RX_STATE3 -> power control example with 24bit received power message (EPP)
+- NO FSK ver.
