@@ -1,0 +1,19 @@
+--cpu Cortex-M0
+".\obj\system_nuc029xee.o"
+".\obj\startup_nuc029xee.o"
+".\obj\ask.o"
+".\obj\ble.o"
+".\obj\fsk.o"
+".\obj\isr.o"
+".\obj\main.o"
+".\obj\retarget_1.o"
+".\obj\sys_1.o"
+".\obj\clk_1.o"
+".\obj\uart_1.o"
+".\obj\timer_1.o"
+".\obj\gpio.o"
+".\obj\adc.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_NUC029xEE.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\TIMER_PowerDown.map" -o .\obj\TIMER_PowerDown.axf

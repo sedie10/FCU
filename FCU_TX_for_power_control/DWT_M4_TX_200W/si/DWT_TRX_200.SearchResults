@@ -1,0 +1,6 @@
+---- DCDC_PWM_PING Matches (5 in 3 files) ----
+Application.h (e:\work\dwt_m4tx_200w\dwt_m4_tx_200w):#define DCDC_PWM_PING               				190
+Qi.c (e:\work\dwt_m4tx_200w\dwt_m4_tx_200w)://				 voltage_prev_volt_f16 = DCDC_PWM_PING;
+Qi.c (e:\work\dwt_m4tx_200w\dwt_m4_tx_200w):				 dcdc_pwm_set( TIMERA_TICKS_100KHZ, TIMERA_TICKS_100KHZ*DCDC_PWM_PING/DCDC_PWM_RATIO_100);
+Qi.c (e:\work\dwt_m4tx_200w\dwt_m4_tx_200w)://  dcdc_pwm_set( TIMERA_TICKS_100KHZ, TIMERA_TICKS_100KHZ*DCDC_PWM_PING/DCDC_PWM_RATIO_100);
+Qi_control_virtual_freq.c (e:\work\dwt_m4tx_200w\dwt_m4_tx_200w):  voltage_prev_volt_f16 = DCDC_PWM_PING;		  /*!< Previous coil switching frequency in kHz (default 175kHz) */

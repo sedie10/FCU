@@ -1,0 +1,8 @@
+---- ECAP0_vStart Matches (7 in 4 files) ----
+Hardware.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w):void ECAP0_vStart(void)
+Hardware.h (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w):void ECAP0_vStart(void);
+Main.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w)://	ECAP0_vStart();
+Qi.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w)://			ECAP0_vStart();
+Qi.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w):			ECAP0_vStart();
+Qi.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w):				ECAP0_vStart();
+Qi.c (d:\work\dwt_m4tx_200w\dwt_m4_tx_200w):		ECAP0_vStart();
